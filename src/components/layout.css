@@ -1,0 +1,26 @@
+.bg-theme-nav {
+  background-color: #4B4A67;
+}
+.bg-theme-footer {
+  background-color: #8DB580;
+}
+.hero-background {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btn-about-us {
+  padding: 5px 30px !important;
+}
+.lead {
+  font-weight: 350 !important;
+}
+.about-background {
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
