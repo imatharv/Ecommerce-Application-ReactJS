@@ -3,8 +3,8 @@ import Heading from '../Reusable/Heading'
 
 export default function contact() {
     return (
-        <section className="py-5">
-            <Heading title="Contact us" />
+        <section className="py-5 bg-light">
+            <Heading title="Reach us" />
             <div className="row justify-content-center">
                 <div className="col-sm-5 col-10">
                     <form action="https://formspree.io/f/xbjpzwpv" method="POST">

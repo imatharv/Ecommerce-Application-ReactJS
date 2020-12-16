@@ -4,12 +4,12 @@ import { Link } from 'gatsby'
  
 export default function Infoblock({ heading }) {
   return (
-    <section className="my-5 py-4">
-      <div className="container">
+    <section className="p-lg-5 p-md-4 p-sm-3">
+      <div className="py-5 container">
         <Heading title={heading} />
-        <div className="row">
-          <div className="col-10 col-sm-8 mx-auto text-center">
-            <p className="lead text-dark mb-4">
+        <div className="row mt-3">
+          <div className="col-10 mx-auto text-center">
+            <p className="lead text-dark mb-4 text-wrap">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam
               obcaecati suscipit eius, omnis, incidunt sapiente dolorum officia
               iste distinctio quas earum doloremque non itaque et laborum

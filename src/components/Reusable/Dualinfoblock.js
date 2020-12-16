@@ -3,12 +3,12 @@ import Heading from './Heading'
 
 export default function Dualinfoblock({ heading, image }) {
   return (
-    <section className="p-5 bg-light">
-      <div className="container">
-        <Heading title={heading} />
-        <div className="row pb-4 mt-4">
-          <div className="col-8 mx-auto px-5">
-            <p className="lead text-dark mb-4">
+    <section className="p-lg-5 p-md-4 p-sm-3">
+      <div className="container pt-5 pb-2">
+        <Heading title={heading} className="" />
+        <div className="row pb-4 mt-3 mx-auto">
+          <div className="col-lg-8 col-md-7 px-sm-5 px-md-4 px-sm-4">
+            <p className="lead text-dark mb-4 ">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Architecto adipisci aut numquam illo. Error repudiandae commodi
               officiis atque aspernatur voluptatum tempore enim dolorem
@@ -33,7 +33,7 @@ export default function Dualinfoblock({ heading, image }) {
               perspiciatis? 
             </p>
           </div>
-          <div className="col-4 px-5">
+          <div className="col-lg-4 col-md-5 px-lg-5 px-md-4 px-sm-3">
             <div className="card shadow border-0">
               <img
                 src={image}
