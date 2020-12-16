@@ -37,7 +37,7 @@ export default class Coursecart extends Component {
 
   render() {
     return (
-      <section className="p-lg-5 p-md-4 p-sm-3">
+      <section className="p-lg-5 p-md-4 p-sm-3 bg-light">
         <div className="py-5 container">
           <Heading title="Courses" />
           <div className="row my-4">
