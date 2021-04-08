@@ -1,1 +1,1 @@
-
+E-commerce web application with ReactJS, Gatsby and Contentful Services. Also tried Snipcart and FormSpree for shopping cart and contactus form. Used Bootstrap and some basic CSS for user interface. Mainly focused on the functionality than looks. Hosted on Netlify using Continuous Deployment from a Git repository.
